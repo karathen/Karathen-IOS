@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MLMChooseImgCell" id="gTV-IL-0wX" customClass="MLMChooseImgCell">
+            <rect key="frame" x="0.0" y="0.0" width="95" height="95"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="95" height="95"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yunbo" translatesAutoresizingMaskIntoConstraints="NO" id="qoE-WU-UPn">
+                        <rect key="frame" x="0.0" y="0.0" width="95" height="95"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BhL-jB-xqS">
+                        <rect key="frame" x="69" y="-16" width="42" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="BhL-jB-xqS" secondAttribute="height" multiplier="1:1" id="KFh-qi-0mq"/>
+                            <constraint firstAttribute="width" constant="42" id="sqY-3B-P7O"/>
+                        </constraints>
+                        <state key="normal" image="publishSkill_delete"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="BhL-jB-xqS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="-16" id="H8l-hf-NcW"/>
+                <constraint firstAttribute="trailing" secondItem="qoE-WU-UPn" secondAttribute="trailing" id="crl-SM-Xes"/>
+                <constraint firstAttribute="trailing" secondItem="BhL-jB-xqS" secondAttribute="trailing" constant="-16" id="f0L-eh-Wab"/>
+                <constraint firstItem="qoE-WU-UPn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="iTA-ef-eIt"/>
+                <constraint firstItem="qoE-WU-UPn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="r3L-hz-moT"/>
+                <constraint firstAttribute="bottom" secondItem="qoE-WU-UPn" secondAttribute="bottom" id="sFA-LT-lcR"/>
+            </constraints>
+            <size key="customSize" width="95" height="95"/>
+            <connections>
+                <outlet property="deleteBtn" destination="BhL-jB-xqS" id="Ce8-Vk-kNw"/>
+                <outlet property="imgView" destination="qoE-WU-UPn" id="Xup-D3-he4"/>
+            </connections>
+            <point key="canvasLocation" x="-111" y="-51"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="publishSkill_delete" width="16" height="16"/>
+        <image name="yunbo" width="250" height="250"/>
+    </resources>
+</document>

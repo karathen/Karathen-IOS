@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  ccAsset
+
+  Created by SealWallet on 2018/9/7.
+  Copyright © 2018年 raistone. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Seal Wallet";
+"NSCameraUsageDescription" = "If you disagee, scanning function can not be used";
+"NSPhotoLibraryAddUsageDescription" = "App needs your permission to visit your album";
+"NSPhotoLibraryUsageDescription" = "App needs your permission to visit your album";
+"NSBluetoothPeripheralUsageDescription" = " App needs your permission to use Bluetooth";

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="CCAccount" representedClassName="CCAccount" syncable="YES">
+        <attribute name="accountID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accountName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coinType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="importType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isBackup" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isSelected" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="passwordInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="walletType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CCAsset" representedClassName="CCAsset" syncable="YES">
+        <attribute name="accountID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="asset_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="balance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coinType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notDelete" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceUSD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenDecimal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenIcon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenSynbol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="walletAddress" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CCCoin" representedClassName="CCCoin" syncable="YES">
+        <attribute name="accountID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coinType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isHidden" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isSelected" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sortID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CCTradeRecord" representedClassName="CCTradeRecord" syncable="YES">
+        <attribute name="accountID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="blockHeight" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="blockTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="coinType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gas" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gasPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="txId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="txReceiptStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="walletAddress" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CCWallet" representedClassName="CCWallet" syncable="YES">
+        <attribute name="accountID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="balance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coinType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="filterType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isHideNoBalance" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isSelected" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="slot" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="walletName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CCAccount" positionX="-634.7265625" positionY="7.0859375" width="128" height="180"/>
+        <element name="CCAsset" positionX="-141.0234375" positionY="-0.33984375" width="128" height="285"/>
+        <element name="CCCoin" positionX="-317.20703125" positionY="31.61328125" width="128" height="120"/>
+        <element name="CCTradeRecord" positionX="-7.91015625" positionY="-2.23828125" width="128" height="270"/>
+        <element name="CCWallet" positionX="-494.1953125" positionY="10.578125" width="128" height="195"/>
+    </elements>
+</model>

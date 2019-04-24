@@ -1,0 +1,26 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios,'8.0'
+target 'ccAsset' do
+use_frameworks!
+pod 'Masonry'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'SDWebImage'
+pod 'YTKNetwork'
+pod 'ReactiveObjC'
+pod "RTRootNavigationController"
+pod 'SAMKeychain'
+pod 'IQKeyboardManager'
+pod 'MBProgressHUD', '~> 1.1.0'
+pod 'MJExtension'
+pod 'TYCyclePagerView'
+pod 'LBXScan/LBXNative','~> 2.3'
+pod 'LBXScan/LBXZXing','~> 2.3'
+pod 'LBXScan/LBXZBar','~> 2.3'
+pod 'LBXScan/UI','~> 2.3'
+pod 'MJRefresh'
+pod 'TZImagePickerController' #iOS8 and later
+pod 'RealReachability'
+pod 'WebViewJavascriptBridge', '~> 6.0'
+pod "Qiniu", "~> 7.2"
+pod 'BaiduMobStatCodeless'
+end
