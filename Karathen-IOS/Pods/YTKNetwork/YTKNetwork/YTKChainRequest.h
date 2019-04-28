@@ -65,7 +65,6 @@ typedef void (^YTKChainCallback)(YTKChainRequest *chainRequest, YTKBaseRequest *
 @property (nonatomic, copy) void(^chainRequestFinished)(YTKChainRequest *chainRequest);
 @property (nonatomic, copy) void(^chainRequestFailed)(YTKChainRequest *chainRequest, YTKBaseRequest *failRequest);
 
-
 ///  This can be used to add several accossories object. Note if you use `addAccessory` to add acceesory
 ///  this array will be automatically created. Default is nil.
 @property (nonatomic, strong, nullable) NSMutableArray<id<YTKRequestAccessory>> *requestAccessories;

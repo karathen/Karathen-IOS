@@ -14,9 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - BaiduMobStatCodeless (4.7.2)
-  - HappyDNS (0.3.14)
-  - IQKeyboardManager (6.0.4)
+  - BaiduMobStatCodeless (5.0.0)
+  - HappyDNS (0.3.15)
+  - IQKeyboardManager (6.2.1)
   - LBXScan/LBXNative (2.3):
     - LBXScan/Types (~> 2.2)
   - LBXScan/LBXZBar (2.3):
@@ -29,9 +29,9 @@ PODS:
     - LBXScan/Types (~> 2.2)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
-  - MJExtension (3.0.15.1)
-  - MJRefresh (3.1.15.3)
-  - Qiniu (7.2.4):
+  - MJExtension (3.0.16)
+  - MJRefresh (3.1.16)
+  - Qiniu (7.2.5):
     - HappyDNS (~> 0.3)
   - ReactiveObjC (3.1.0)
   - RealReachability (1.3.0):
@@ -39,15 +39,15 @@ PODS:
     - RealReachability/Ping (= 1.3.0)
   - RealReachability/Connection (1.3.0)
   - RealReachability/Ping (1.3.0)
-  - RTRootNavigationController (0.6.7):
-    - RTRootNavigationController/Core (= 0.6.7)
-  - RTRootNavigationController/Core (0.6.7)
+  - RTRootNavigationController (0.7.1):
+    - RTRootNavigationController/Core (= 0.7.1)
+  - RTRootNavigationController/Core (0.7.1)
   - SAMKeychain (1.5.3)
-  - SDWebImage (4.4.1):
-    - SDWebImage/Core (= 4.4.1)
-  - SDWebImage/Core (4.4.1)
-  - TYCyclePagerView (1.1.0)
-  - TZImagePickerController (2.1.8)
+  - SDWebImage (5.0.1):
+    - SDWebImage/Core (= 5.0.1)
+  - SDWebImage/Core (5.0.1)
+  - TYCyclePagerView (1.2.0)
+  - TZImagePickerController (3.2.0)
   - "UITableView+FDTemplateLayoutCell (1.6)"
   - WebViewJavascriptBridge (6.0.3)
   - YTKNetwork (2.0.4):
@@ -103,27 +103,27 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BaiduMobStatCodeless: 2f05624c93ce959ce52f7e245fb61addc1b01865
-  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
-  IQKeyboardManager: 29514134ef0334a6fa33cf4eee11c36c064baeaf
+  BaiduMobStatCodeless: ef513de2f4fd1f39cf1ca70f0d2ddaedd0afb3ca
+  HappyDNS: 00c15e651a347206e58a20503a32a5564589b56a
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
   LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
-  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
-  Qiniu: 65384bca1cdb0480a68d9b9b8f54db53418c0355
+  MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
-  RTRootNavigationController: d6aa6cbb78a3eaecea4f6e4df63f15dd887836b8
+  RTRootNavigationController: afa6913402be26f8326f7f37fc1550aa67baddcc
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
-  TYCyclePagerView: b70858c9b5d0e80e1e3129ff5ceb027eb0f76d44
-  TZImagePickerController: c2c75f3d5c6b9c634185ecb458df66d0aab8bbae
+  SDWebImage: 27dd2c9ea07a2252f94557c9fbb6105ee94b74c9
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  TZImagePickerController: 7850b158d025065b162a1a963d445040b828abc9
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: d6b6882f533adeb2830792dfb37d08ead39ecc21
+PODFILE CHECKSUM: 98d42e75a8f6ca53f8356faa4a60d84459cb8a60
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

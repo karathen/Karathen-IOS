@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform:ios,'8.0'
-target 'ccAsset' do
+platform:ios,'9.0'
+target 'karathen' do
 use_frameworks!
 pod 'Masonry'
 pod 'UITableView+FDTemplateLayoutCell'

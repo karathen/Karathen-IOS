@@ -1,0 +1,132 @@
+/* 
+  Language.strings
+  ccAsset
+
+  Created by Karathen on 2018/7/10.
+  Copyright © 2018年 raistone. All rights reserved.
+*/
+
+"Discover" = "DApps";
+
+"Input Dapp PlaceHolder" = "Please input the DApp address";
+"Input Dapp Hint" = "Input the Dapp address to visit";
+
+"en" = "English";
+"zh-Hans" = "简体中文";
+
+"Please input email phone number" = "Please input phone number";
+"Create New Address" = "Create New %@ Address";
+
+
+"Wallet password" = "Password";
+
+"Filter All" = "All";
+
+
+"About Us Desc" = "Karathen is a comprehensive digital asset wallet app that combines HD wallet, Cloud wallet and hardware wallet. It supports BTC, ETH, NEO, ONT and EOS, etc., aims to provide precise solutions for users who have different needs. Karathen has extreme stability, reliability and safety, simple operation allows you to enjoy digital asset management.";
+
+"Subimitting" = "Subimitting...";
+
+"Logout Wallet" = "Logout";
+
+
+"Skip Backup Mnemonic" = "Want to skip mnemonics verification? If you didn't backup your mnemonics properly, the deleted wallet cannot be recovered.";
+
+"Exit Wallet Hint Content" = "Please confirm the mnemonic words had been backed up, once lost, your wallet will at great risk! Delete wallet will also remove all imported addresses.";
+
+"BackUp Finished" = "Finished";
+
+"Guide Content 1" = "Karathen cloud wallet is designed for entry-level users，without the need to import private key or mnemonics, just use username and password to successfully get it. Cloud wallet supports password recovery, transfer assets for free with lightning speed.";
+"Guide Content 2" = "Karathen HD wallet is a decentralized open source hierarchical deterministic wallet, users could manage on-chain digital assets by only a set of mnemonics, making multi-chain asset management easier and more convenient. Karathen HD wallet also integrates different blockchain applications, you can experience DAPP here!";
+"Guide Content 3" = "Hardware wallet is tailored to the users with large amount of assets or enterprises users. We use encryption algorithms to protect and store the secret key, provide security for your digital assets. ";
+
+"Update Content" = "Solve the known bugs in old version\nOptimize the unreasonable functions";
+"Update Now" = "Update";
+"ONT Transfer hint" = "You have to pay ontology 0.01 ONG when transfer ONG or ONT. The fee will be deducted automatically. When the balance is insufficient, the transfer will fail.";
+"ONT ClaimGas hint" = "You have to pay ontology 0.01 ONG when claim ONG. The fee will be deducted automatically. When the balance is not enough, the transfer will fail. We suggest you to reserve a sufficient amount of ONG before claiming.";
+
+
+"Coin Manage Title" = "The system will display in the order listed below, long press the drag and drop to sort";
+"Coin down" = "Down";
+"Coin up" = "Up";
+"Coin Hidden" = "Hidden";
+
+"Warning Export" = "%@ is directly connceted to your assets safety, please keep them in a safe place.";
+
+
+"Data Empty" = "~~ Empty ~~";
+
+"Transaction Failed" = "Failed";
+"Transaction Records" = "%@ Transaction Records";
+
+
+"Claimed Symbol" = "Claimed %@";
+"Unclaimed Symbol" = "Unclaimed %@";
+"Claim Symbol" = "Claim %@";
+"Claim Succeeded" = "Claim Succeeded";
+"Claiming Symbol" = "%@ Claiming";
+
+"Import your wallet by importing mnemonic words" = "Mnemonic";
+"Import your wallet by private key" = "Private Key";
+"Address From" = "From";
+"Address To" = "To";
+"Entering" = "Enter";
+
+
+"CK Speed1" = "Fast";
+"CK Speed2" = "Swift";
+"CK Speed3" = "Snappy";
+"CK Speed4" = "Brisk";
+"CK Speed5" = "Plodding";
+"CK Speed6" = "Slow";
+"CK Speed7" = "Sluggish";
+"CK Speed8" = "Catatonic";
+
+"MJRefreshHeaderIdleText" = "Pull down to refresh";
+"MJRefreshHeaderPullingText" = "Release to refresh";
+"MJRefreshHeaderRefreshingText" = "Loading...";
+"MJRefreshAutoFooterNoMoreDataText" = "No more data";
+"MJRefreshAutoFooterIdleText" = "Tap or pull up to load more";
+
+//硬件钱包提示
+"PAEW_RET_SUCCESS" = "Success";
+"PAEW_RET_UNKNOWN_FAIL" = "Unknown error";
+"PAEW_RET_ARGUMENTBAD" = "Argument bad";
+"PAEW_RET_HOST_MEMORY" = "Host memory error";
+"PAEW_RET_DEV_ENUM_FAIL" = "Device enum failed";
+"PAEW_RET_DEV_OPEN_FAIL" = "Device open failed";
+"PAEW_RET_DEV_COMMUNICATE_FAIL" = "Device communicate failed";
+"PAEW_RET_DEV_NEED_PIN" = "Password incorrect";
+"PAEW_RET_DEV_OP_CANCEL" = "Device operation cancelled";
+"PAEW_RET_DEV_KEY_NOT_RESTORED" = "Device key not restored";
+"PAEW_RET_DEV_KEY_ALREADY_RESTORED" = "Device key already restored";
+"PAEW_RET_DEV_COUNT_BAD" = "Device count bad";
+"PAEW_RET_DEV_RETDATA_INVALID" = "Device returned data invalid";
+"PAEW_RET_DEV_AUTH_FAIL" = "Device authentication failed";
+"PAEW_RET_DEV_STATE_INVALID" = "Device state invalid";
+"PAEW_RET_DEV_WAITING" = "Device waiting";
+"PAEW_RET_DEV_COMMAND_INVALID" = "Command invalid";
+"PAEW_RET_DEV_RUN_COMMAND_FAIL" = "Run command failed";
+"PAEW_RET_DEV_HANDLE_INVALID" = "Device handle invalid";
+"PAEW_RET_AUTH_TYPE_INVALID" = "Auth type invalid";
+"PAEW_RET_PIN_LEN_ERROR" = "Pin length error";
+"PAEW_RET_DEV_ALREADY_AVAILABLE" = "device already available, don't need to abort";
+"PAEW_RET_DEV_BUSY" = "Device busy";
+"PAEW_RET_AUTH_CANCEL" = "Not used yet";
+"PAEW_RET_NO_VERIFY_COUNT" = "No verify count";
+"PAEW_RET_DEV_TYPE_INVALID" = "Device type invalid";
+"PAEW_RET_DEV_LOW_POWER" = "Device low power";
+"PAEW_RET_DEV_SENSOR_ERROR" = "Device sensor error";
+"PAEW_RET_DEV_STORAGE_FULL" = "Device storage full";
+"PAEW_RET_DEV_STORAGE_ERROR" = "Device storage error";
+"PAEW_RET_DEV_DATA_NOT_FOUND" = "Device data not found";
+"PAEW_RET_DEV_PIN_UNINIT" = "PIN not inited";
+"PAEW_RET_DEV_DEV_OPERATING" = "Device is on operating";
+"PAEW_RET_DEV_CHECKDATA_FAIL" = "Device check data failed";
+"PAEW_RET_DEV_PIN_VERIFY_FAIL" = "PIN verify failed";
+"PAEW_RET_DEV_PIN_CONFIRM_FAIL" = "PIN confirm failed";
+"PAEW_RET_DEV_PIN_LOCKED" = "PIN locked";
+"PAEW_RET_DEV_TIMEOUT" = "Timeout";
+"PAEW_RET_CRYPTO_ERROR" = "Crypto error";
+"PAEW_RET_TARGET_DEV_INVALID" = "Target device invalid";
+"PAEW_RET_INTERNAL_ERROR" = "Internal error";

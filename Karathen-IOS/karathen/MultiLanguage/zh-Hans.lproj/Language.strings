@@ -1,0 +1,386 @@
+/* 
+  Language.strings
+  ccAsset
+
+  Created by Karathen on 2018/7/10.
+  Copyright © 2018年 raistone. All rights reserved.
+*/
+
+"Wallets" = "钱包";
+"Discover" = "DApps";
+"My Profile" = "个人中心";
+"language" = "语言设置";
+
+"Sign in" = "登录";
+"Sign up" = "注册";
+"Connect device" = "连接设备";
+"Please turn on the Bluetooth" = "请打开蓝牙";
+"Not found connectable device" = "未发现可连接设备";
+"Scanning..." = "正在扫描...";
+"Searching device failed" = "扫描设备失败";
+"Connecting..." = "正在连接...";
+"Connection failed" = "连接失败";
+"Device list" = "设备列表";
+"Checking if the wallet had been imported" = "查询钱包是否导入地址...";
+"The hardware wallet had existed address,you can import it directly" = "硬件钱包已经被写入地址，可以直接导入";
+"Creating mnemonics" = "正在生成助记词";
+"Connetction failed,now is being reconnected" = "钱包连接断开，正在重连...";
+"Setting password" = "设置密码...";
+"Writting mnemonics" = "写入助记词...";
+"Getting address" = "获取地址...";
+"Change password failed" = "密码修改失败";
+"Changing password" = "正在修改...";
+"Transfer amount cannot be 0" = "转账金额不能为0";
+"Set the transaction information" = "配置交易信息";
+"Please press the button after confirming the information" = "确认交易信息后，请点击按钮";
+"Sending raw transaction" = "交易广播中...";
+"Attention" = "提示";
+"Confirm delete this hardware wallet?" = "是否确认删除该硬件钱包？";
+"This hardware wallet had existed" = "已经存在该硬件钱包";
+"Hardware wallet import failed" = "硬件钱包导入失败";
+
+"Input Dapp PlaceHolder" = "请输入DApp网址...";
+"Input Dapp Hint" = "在地址栏输入 DApp 网址，进入浏览。";
+
+
+"Cloud wallet" = "云钱包";
+"HD wallet" = "HD钱包";
+"Hardware wallet" = "硬件钱包";
+"en" = "English";
+"zh-Hans" = "简体中文";
+
+"Wallet management" = "钱包管理";
+"Add wallet" = "添加钱包";
+"Wallet name" = "钱包名称";
+"Please input wallet name" = "请输入钱包名称";
+"Prompt message" = "密码提示信息";
+"Please input prompt message" = "请输入密码提示信息";
+
+"Please input keystore" = "请输入keystore文本";
+"Keystore password" = "Keystore密码";
+"Please input keystore password" = "请输入Keystore密码";
+"Unbaked" = "未备份";
+
+"Creating wallet..." = "正在创建...";
+"Deleting wallet..." = "正在删除...";
+"Exporting..." = "正在导出...";
+"Creating address..." = "正在生成地址...";
+"Signing..." = "正在签署...";
+"Resetting..." = "正在重置密码...";
+"Submitting..." = "正在提交...";
+"Importing..." = "正在导入...";
+
+
+"Email" = "电邮地址";
+"Please input email address" = "请输入电邮地址";
+"Phone" = "手机号码";
+"Please input email phone number" = "请输入手机号码";
+"Title" = "标题";
+"Please input title" = "请输入标题";
+"Description" = "描述";
+"Please input description" = "请输入描述";
+"Please provide details about the problem, we will reply to you as soon as possible" = "请输入您请求的详情，我们的一名支持人员将尽快答复您。";
+"Photo" = "图片";
+"Email address invalid" = "无效的邮箱地址";
+
+"Create" = "创建";
+"Create Wallet" = "创建钱包";
+"Import Wallet" = "导入钱包";
+"Import Address" = "导入地址";
+"Address Management" = "地址管理";
+"Create New" = "新建";
+"Address" = "地址";
+
+"Create New Address" = "新建%@地址";
+"Add available addresses by creating" = "可通过新建添加可用地址";
+
+"Scan" = "扫码";
+"Align camera to the QR Code" = "请将镜头对准二维码进行扫描";
+
+"Please input password" = "请输入密码";
+"Set password" = "设置密码";
+"Confirm password" = "密码确认";
+"Wallet password" = "密码";
+
+"Please enter the password with at least 6 numbers" = "请输入至少6位密码";
+"Please enter 6-digital number password" = "请输入6位数字密码";
+
+
+"Filter All" = "所有";
+"Hide the asset with no balance" = "隐藏无余额资产";
+"Asset symbol" = "资产标志";
+"Asset name" = "资产名称";
+"Asset type" = "资产类型";
+"Contract address" = "合约地址";
+"Attention:this address is not the address of receiving asset" = "注意：该地址不是您的收币地址";
+
+"Meaningful names could help you manage assets better" = "有意义的名字可以更好的帮助您管理资产";
+"Import" = "导入";
+"Mnemonic" = "助记词";
+"Private Key" = "私钥";
+"private key" = "私钥";
+"Please separate each mnemonic word with a space" = "请输入助记词，用空格分隔";
+"Export keystore" = "导出Keystore";
+
+"Reset password" = "修改密码";
+"Password prompt" = "密码提示";
+"Delete wallet" = "删除钱包";
+"Backup wallet" = "备份钱包";
+"Currency Unit" = "货币单位";
+"Language" = "语言设置";
+"Suport" = "帮助中心";
+"Technical Support" = "技术支持";
+"About" = "关于我们";
+"Check for updates" = "检查更新";
+"Contact us" = "联系我们";
+"current verison" = "当前版本";
+"No update available" = "已经是最新版本";
+"About Us Desc" = "Karathen钱包是一款集HD钱包、云钱包、硬件钱包为一体的综合性移动端数字资产钱包，支持BTC \ETH \NEO \ONT \EOS等多链，旨在为不同需求用户提供精准的解决方案。Karathen钱包安全性强、易于上手、功能丰富，让您恋上数字资产管理。";
+
+"Subimitting" = "提交中...";
+"Submission succeeded" = "提交成功";
+"Submission failed" = "提交失败";
+"The submission is out of limit, please try again later." = "提交过于频繁，请稍后再试";
+
+"Please set the wallet name" = "请设置钱包名称";
+"Confirm Password" = "再次确认密码";
+"I have carefully read and agree to the" = "我已经阅读并同意";
+
+
+"Terms of Service and Privacy Policy" = "服务及隐私条款";
+"Terms of Service" = "服务协议";
+"Privacy Policy" = "隐私政策";
+"Logout Wallet" = "退出钱包";
+
+"Backup Mnemonic Phrase" = "备份助记词";
+"Mnemonic word is the only way to regain the current wallet,please keep them in a safe and secret place." = "助记词是恢复当前钱包的唯一方法，请将他们保存在安全和隐秘的地方。";
+
+"Skip Backup Mnemonic" = "确定要跳过助记词验证吗？没有妥善备份助记词将不能恢复已删除的钱包。";
+
+"Exit Wallet Hint Content" = "请确认您已备份助记词，丢失助记词可能会使您的钱包面临巨大风险！退出钱包会同时移除所有已导入当前钱包的地址。";
+
+"BackUp Finished" = "备份完成";
+"Yes" = "确定";
+"Cancel" = "取消";
+"Submit" = "提交";
+
+"Guide Content 1" = "Karathen云钱包专为入门级用户贴心打造，无需导入私钥和助记词，使用用户名密码就能成功搞定。支持密码找回，站内收发零费用，秒到账";
+"Guide Content 2" = "KarathenHD钱包是一款去中心化开源的分层确定性钱包，用户通过单组助记词即可安全、方便、简单的管理链上数字资产，同时钱包内集成了不同类目区块链应用，让您轻松玩转DAPP";
+"Guide Content 3" = "为大额资产用户及企业级用户量身定制，通过加密算法对密钥进行防护和存储，为您的数字资产提供安全保障，多重防护只为更安全的资产管理";
+
+"Update Content" = "解决了旧版中已知的BUG\n优化了使用中不合理的功能";
+"Update Now" = "立即更新";
+"ONT Transfer hint" = "转账ONG/ONT需向本体主网支付0.01ONG。会自动从用户余额中扣除；余额不足时，转账失败。";
+"ONT ClaimGas hint" = "提取ONG需向本体主网支付0.01ONG。会自动从用户余额中扣除；余额不足时，提取失败。建议储备足量的ONG后，再进行提取。";
+
+"Verify Mnemonic Phrase" = "助记词验证";
+"Please select Mnemonic Phrase in the correct order" = "请按照正确顺序依次点击";
+"Verifying" = "确认";
+"OK" = "好";
+
+"Transfer Confirmation" = "转账确认";
+"Multi-chain management" = "多链管理";
+"At least display one chain" = "至少显示一条链";
+
+"Coin Manage Title" = "系统将根据下面排列的顺序进行展示,长按拖拽可进行排序";
+"Coin down" = "向下";
+"Coin up" = "向上";
+"Coin Hidden" = "隐藏";
+
+"Wallet Address" = "钱包地址";
+"Export Private Key" = "导出私钥";
+"Export WIF" = "导出WIF";
+"Export mnemonic word" = "导出助记词";
+"Enter the explorer" = "浏览器查询";
+"Delete address" = "删除地址";
+"Change name" = "修改名称";
+"Delete" = "删除";
+
+"Please enter password" = "请输入密码";
+"Caution! This operation cannot be revoked!" = "请慎重，此操作无法撤销";
+"Confirm" = "确认";
+
+"Old password" = "旧密码";
+"Please enter the old password" = "请输入旧密码";
+"New password" = "新密码";
+
+"New password should not be same as old password" = "新旧密码不能相同";
+
+"Warning Export" = "安全警告：%@将直接关系到您的资产安全，请妥善保存";
+"Copy" = "复制";
+"Copied" = "已复制";
+
+"Store Offline" = "离线保存";
+"Don't Transfer via Internet Tools" = "请勿使用网络传输";
+"Store to Password Vault" = "密码保险箱保存";
+
+"Transfer" = "转账";
+"Input the amount" = "输入金额";
+"Transfer Address" = "付款地址";
+
+
+"Receive" = "收款";
+"Copy Success" = "复制成功";
+"Asset" = "资产";
+"Recent Exchange" = "最近交易记录";
+"Transaction Failed" = "交易失败";
+"Transaction Records" = "%@交易记录";
+"All Records" = "全部交易记录";
+"Transfer Records" = "转出交易记录";
+"Receiving Information" = "收款通知";
+"days ago" = "日前";
+"Sender Address" = "发送方";
+"Exceed your balance" = "超出你的余额";
+"Address incorrect" = "地址错误";
+"Data Empty" = "~~空空如也~~";
+
+"Wallet" = "钱包";
+"Copy the Wallet Address" = "复制钱包地址";
+
+"Type" = "类型";
+"Amount" = "数量";
+"Recipient Address" = "收款地址";
+"Balance" = "余额";
+"Paste the recipient address" = "请粘贴收款地址";
+"All" = "全部";
+"Different chain cannot make transaction" = "不同链之间无法转账";
+"Same address cannot make transaction" = "相同地址之间无法转账";
+"Claim" = "提取";
+
+"Add Asset" = "添加资产";
+"Search" = "搜索";
+"Add" = "添加";
+"Added" = "已添加";
+
+"Claimed Symbol" = "可提取%@";
+"Unclaimed Symbol" = "不可提取%@";
+"Claim Symbol" = "提取%@";
+"Claim Succeeded" = "提取成功";
+"Claiming Symbol" = "%@提取中";
+
+"Token name or contract address" = "搜索 Token 名称或合约地址";
+
+"Fail" = "失败";
+"Success" = "成功";
+
+"Transaction Details" = "交易明细";
+
+
+"Please use space to separate the mnemonic words" = "输入助记词，用空格分隔";
+"Please input your private key" = "请输入私钥";
+"Please input your WIF" = "请输入WIF";
+"Unknown error" = "未知错误";
+"Your mnemonic words incorrect" = "你的助记词不正确";
+"Private Key incorrect" = "错误的私钥";
+"WIF incorrect" = "错误的WIF";
+"Off-line" = "离线";
+"Keystore invalid" = "Keystore 无效";
+"Decryption of Keystore failed" = "KeyStore解密失败";
+"Private key length is not long enough" = "私钥长度不够";
+"Wallet already exists" = "钱包已存在";
+"Gas price retrieval failed" = "获取Gas Price失败";
+"Password incorrect" = "密码错误";
+"Reset password succeeds" = "修改密码成功";
+"Transfer failed" = "转账失败";
+"Send raw transaction succeeded" = "交易广播成功";
+"Send raw transaction failed" = "交易广播失败";
+
+"Send raw transaction succeeded but remark failed" = "交易广播成功，备注失败";
+
+"Please import your mnemonic words in order" = "请按正确的顺序选择您的助记词";
+"Import your wallet by importing mnemonic words" = "通过助记词导入";
+"Import your wallet by private key" = "通过私钥导入";
+"Unidentifiable QR code" = "不能识别的二维码";
+"This type of asset is not exists in your wallet" = "该钱包下没有添加该资产";
+"Receipt asset does not match with transferred asset,please check again" = "当前二维码的收款资产与转账资产不一致，请检查";
+"Scan results" = "扫描结果";
+"Address From" = "发送地址";
+"Address To" = "接收地址";
+"Actual Tx Cost/Fee" = "矿工费用";
+"Remark" = "备注";
+"TxHash" = "交易号";
+"Block Height" = "区块";
+"Transaction time" = "交易时间";
+"Address Name" = "钱包名";
+"You cannot transfer to yourself" = "不能给自己转账";
+"Transferring" = "转账中";
+"Change address name" = "修改地址名称";
+"Change wallet name" = "修改钱包名称";
+"Private key is being exported" = "导出私钥中";
+"Reseting password " = "修改密码中";
+"Entering" = "点击进入";
+"Slow" = "慢";
+"Fast" = "快";
+"Mining Fee" = "矿工费用";
+"Different asset types" = "不同类型的资产";
+"Address Name Can't be empety" = "地址名称不能为空";
+"Wallet Name Can't be empety" = "钱包名称不能为空";
+"Skip" = "跳过";
+"None" = "无";
+
+"Network Timeout" = "网络超时";
+"Please check the network" = "请检查网络";
+"You probably have a network problem" = "You probably have a network problem";
+
+"CK Speed1" = "神速";
+"CK Speed2" = "急速";
+"CK Speed3" = "快速";
+"CK Speed4" = "中速";
+"CK Speed5" = "慢速";
+"CK Speed6" = "迟缓";
+"CK Speed7" = "龟速";
+"CK Speed8" = "昏迷";
+
+"MJRefreshHeaderIdleText" = "下拉可以刷新";
+"MJRefreshHeaderPullingText" = "松开立即刷新";
+"MJRefreshHeaderRefreshingText" = "正在刷新数据中...";
+"MJRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
+"MJRefreshAutoFooterIdleText" = "点击或上拉加载更多";
+
+"Press button to format" = "点击按钮，初始化钱包";
+"Press button to confirm address" = "点击按钮，确认地址";
+"Press button to init password" = "点击按钮，初始化密码";
+"Press button to change password" = "点击按钮，修改密码";
+
+//硬件钱包提示
+"PAEW_RET_SUCCESS" = "成功";
+"PAEW_RET_UNKNOWN_FAIL" = "未知错误";
+"PAEW_RET_ARGUMENTBAD" = "参数错误";
+"PAEW_RET_HOST_MEMORY" = "主机内存错误";
+"PAEW_RET_DEV_ENUM_FAIL" = "设备枚举失败";
+"PAEW_RET_DEV_OPEN_FAIL" = "设备打开失败";
+"PAEW_RET_DEV_COMMUNICATE_FAIL" = "设备通信失败";
+"PAEW_RET_DEV_NEED_PIN" = "密码错误";
+"PAEW_RET_DEV_OP_CANCEL" = "设备操作取消";
+"PAEW_RET_DEV_KEY_NOT_RESTORED" = "设备密钥未还原";
+"PAEW_RET_DEV_KEY_ALREADY_RESTORED" = "设备密钥已恢复";
+"PAEW_RET_DEV_COUNT_BAD" = "设备计算失败";
+"PAEW_RET_DEV_RETDATA_INVALID" = "设备返回数据无效";
+"PAEW_RET_DEV_AUTH_FAIL" = "设备身份验证失败";
+"PAEW_RET_DEV_STATE_INVALID" = "设备状态无效";
+"PAEW_RET_DEV_WAITING" = "设备处于等待";
+"PAEW_RET_DEV_COMMAND_INVALID" = "命令无效";
+"PAEW_RET_DEV_RUN_COMMAND_FAIL" = "运行命令失败";
+"PAEW_RET_DEV_HANDLE_INVALID" = "设备句柄无效";
+"PAEW_RET_AUTH_TYPE_INVALID" = "身份验证类型无效";
+"PAEW_RET_PIN_LEN_ERROR" = "密码长度错误";
+"PAEW_RET_DEV_ALREADY_AVAILABLE" = "设备已经可用，不需要中止";
+"PAEW_RET_DEV_BUSY" = "设备正忙";
+"PAEW_RET_AUTH_CANCEL" = "硬件未被使用";
+"PAEW_RET_NO_VERIFY_COUNT" = "没有验证计数";
+"PAEW_RET_DEV_TYPE_INVALID" = "设备类型无效";
+"PAEW_RET_DEV_LOW_POWER" = "设备电量过低";
+"PAEW_RET_DEV_SENSOR_ERROR" = "设备传感器错误";
+"PAEW_RET_DEV_STORAGE_FULL" = "设备存储已满";
+"PAEW_RET_DEV_STORAGE_ERROR" = "设备存储错误";
+"PAEW_RET_DEV_DATA_NOT_FOUND" = "未找到设备数据";
+"PAEW_RET_DEV_PIN_UNINIT" = "密码没有设置";
+"PAEW_RET_DEV_DEV_OPERATING" = "设备正在运行";
+"PAEW_RET_DEV_CHECKDATA_FAIL" = "设备检查数据失败";
+"PAEW_RET_DEV_PIN_VERIFY_FAIL" = "密码验证失败";
+"PAEW_RET_DEV_PIN_CONFIRM_FAIL" = "密码确认失败";
+"PAEW_RET_DEV_PIN_LOCKED" = "密码被锁";
+"PAEW_RET_DEV_TIMEOUT" = "超时";
+"PAEW_RET_CRYPTO_ERROR" = "密码错误";
+"PAEW_RET_TARGET_DEV_INVALID" = "目标设备无效";
+"PAEW_RET_INTERNAL_ERROR" = "硬件内部错误";

@@ -25,7 +25,6 @@
 + (NSString *)tz_localizedStringForKey:(NSString *)key value:(NSString *)value {
     NSBundle *bundle = [TZImagePickerConfig sharedInstance].languageBundle;
     NSString *value1 = [bundle localizedStringForKey:key value:value table:nil];
-    
     return value1;
 }
 
