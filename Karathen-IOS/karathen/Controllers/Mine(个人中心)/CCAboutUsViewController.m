@@ -188,7 +188,7 @@
     if (!_urlLab) {
         _urlLab = [[UILabel alloc] init];
         _urlLab.text = Karathen_URL;
-        _urlLab.textColor = CC_BTN_ENABLE_COLOR;
+        _urlLab.textColor = CC_MAIN_COLOR;
         _urlLab.textAlignment = NSTextAlignmentCenter;
         _urlLab.font = MediumFont(FitScale(12));
     }

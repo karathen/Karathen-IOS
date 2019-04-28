@@ -81,12 +81,12 @@
             [titles addObject:model.title];
         }
         _segmentHead = [[MLMSegmentHead alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, FitScale(45)) titles:titles headStyle:SegmentHeadStyleLine layoutStyle:MLMSegmentLayoutDefault];
-        _segmentHead.selectColor = CC_BTN_ENABLE_COLOR;
+        _segmentHead.selectColor = CC_MAIN_COLOR;
         _segmentHead.deSelectColor = CC_BLACK_COLOR;
         _segmentHead.fontSize = FitScale(15);
         _segmentHead.bottomLineHeight = 0;
         _segmentHead.lineHeight = FitScale(2);
-        _segmentHead.lineColor = CC_BTN_ENABLE_COLOR;
+        _segmentHead.lineColor = CC_MAIN_COLOR;
         [_segmentHead defaultAndCreateView];
     }
     return _segmentHead;

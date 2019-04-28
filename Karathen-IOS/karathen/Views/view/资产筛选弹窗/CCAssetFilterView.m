@@ -73,11 +73,11 @@
                 if (self.walletData.wallet.filterType) {
                     cell.titleLab.textColor = CC_BLACK_COLOR;
                 } else {
-                    cell.titleLab.textColor = CC_BTN_ENABLE_COLOR;
+                    cell.titleLab.textColor = CC_MAIN_COLOR;
                 }
             } else {
                 if ([filterType isEqualToString:self.walletData.wallet.filterType]) {
-                    cell.titleLab.textColor = CC_BTN_ENABLE_COLOR;
+                    cell.titleLab.textColor = CC_MAIN_COLOR;
                 } else {
                     cell.titleLab.textColor = CC_BLACK_COLOR;
                 }
@@ -195,7 +195,7 @@
 - (UISwitch *)switchBtn {
     if (!_switchBtn) {
         _switchBtn = [[UISwitch alloc] init];
-        _switchBtn.onTintColor = CC_BTN_ENABLE_COLOR;
+        _switchBtn.onTintColor = CC_MAIN_COLOR;
         _switchBtn.thumbTintColor = [UIColor whiteColor];
         _switchBtn.backgroundColor = [UIColor blackColor];
         _switchBtn.transform = CGAffineTransformMakeScale(.6, .6);

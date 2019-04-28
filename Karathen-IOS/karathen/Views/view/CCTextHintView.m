@@ -66,7 +66,7 @@
 - (UILabel *)titleLab {
     if (!_titleLab) {
         _titleLab = [[UILabel alloc] init];
-        _titleLab.textColor = CC_BTN_TITLE_COLOR;
+        _titleLab.textColor = CC_MAIN_COLOR;
         _titleLab.font = MediumFont(FitScale(12));
         _titleLab.numberOfLines = 0;
     }

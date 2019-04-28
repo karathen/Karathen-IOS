@@ -19,12 +19,9 @@
 #define RGB_COLOR(_red, _green, _blue) [UIColor colorWithRed:(_red)/255.0f green:(_green)/255.0f blue:(_blue)/255.0f alpha:1]
 #define RGB_COLOR_ALPHA(_red, _green, _blue, a) [UIColor colorWithRed:(_red)/255.0f green:(_green)/255.0f blue:(_blue)/255.0f alpha:a]
 
-//按钮可点击背景色
-#define CC_BTN_ENABLE_COLOR RGB(0x5778F6)
-//按钮不可点击背景色
+
+#define CC_MAIN_COLOR RGB(0x235aa7)
 #define CC_BTN_DISABLE_COLOR RGB(0xeff1f3)
-//按钮蓝色文字颜色
-#define CC_BTN_TITLE_COLOR RGB(0x5575FD)
 //灰色背景
 #define CC_GRAY_BACKCOLOR RGB(0xF6F7F9)
 ///灰色文字

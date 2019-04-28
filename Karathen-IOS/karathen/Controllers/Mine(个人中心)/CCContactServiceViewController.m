@@ -209,9 +209,9 @@ static NSInteger maxCount = 3;
     imagePicker.allowPickingVideo = NO;
     imagePicker.navigationBar.translucent = NO;
     [imagePicker.navigationBar setShadowImage:[UIImage new]];
-    imagePicker.navigationBar.barTintColor = CC_BTN_ENABLE_COLOR;
+    imagePicker.navigationBar.barTintColor = CC_MAIN_COLOR;
     imagePicker.oKButtonTitleColorDisabled = [UIColor lightGrayColor];
-    imagePicker.oKButtonTitleColorNormal = CC_BTN_ENABLE_COLOR;
+    imagePicker.oKButtonTitleColorNormal = CC_MAIN_COLOR;
     imagePicker.navigationBar.translucent = NO;
     imagePicker.selectedAssets = self.assets;
     @weakify(self)
@@ -278,7 +278,7 @@ static NSInteger maxCount = 3;
 - (UIButton *)commitBtn {
     if (!_commitBtn) {
         _commitBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _commitBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _commitBtn.backgroundColor = CC_MAIN_COLOR;
         _commitBtn.layer.cornerRadius = FitScale(5);
         _commitBtn.layer.masksToBounds = YES;
         [_commitBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];

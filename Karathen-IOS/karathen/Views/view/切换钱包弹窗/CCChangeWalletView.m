@@ -135,8 +135,8 @@
     }
     
     if (isSelected) {
-        self.nameLab.textColor = self.typeLab.textColor = self.addressLab.textColor = self.balanceLab.textColor = CC_BTN_ENABLE_COLOR;
-        self.lineView.backgroundColor = CC_BTN_ENABLE_COLOR;
+        self.nameLab.textColor = self.typeLab.textColor = self.addressLab.textColor = self.balanceLab.textColor = CC_MAIN_COLOR;
+        self.lineView.backgroundColor = CC_MAIN_COLOR;
     } else {
         self.typeLab.textColor = self.addressLab.textColor = CC_GRAY_TEXTCOLOR;
         self.nameLab.textColor = self.balanceLab.textColor = CC_BLACK_COLOR;

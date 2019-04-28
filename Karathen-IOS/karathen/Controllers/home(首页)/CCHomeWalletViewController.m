@@ -181,7 +181,7 @@
 - (UIButton *)createBtn {
     if (!_createBtn) {
         _createBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _createBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _createBtn.backgroundColor = CC_MAIN_COLOR;
         _createBtn.layer.cornerRadius = FitScale(5);
         _createBtn.layer.masksToBounds = YES;
         [_createBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -194,7 +194,7 @@
     if (!_importBtn) {
         _importBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         _importBtn.backgroundColor = [UIColor clearColor];
-        [_importBtn setTitleColor:CC_BTN_TITLE_COLOR forState:UIControlStateNormal];
+        [_importBtn setTitleColor:CC_MAIN_COLOR forState:UIControlStateNormal];
         _importBtn.titleLabel.font = MediumFont(FitScale(14));
     }
     return _importBtn;

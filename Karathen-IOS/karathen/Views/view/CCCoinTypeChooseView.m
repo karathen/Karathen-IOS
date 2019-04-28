@@ -124,7 +124,7 @@
 - (void)bindCellWithCoinType:(CCCoinType)coinType selected:(BOOL)selected {
     self.contentLab.text = [CCDataManager coinKeyWithType:coinType];
     if (selected) {
-        self.contentLab.textColor = CC_BTN_ENABLE_COLOR;
+        self.contentLab.textColor = CC_MAIN_COLOR;
     } else {
         self.contentLab.textColor = CC_BLACK_COLOR;
     }

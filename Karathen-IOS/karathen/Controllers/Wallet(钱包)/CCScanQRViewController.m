@@ -61,9 +61,9 @@
     
     imagePicker.navigationBar.translucent = NO;
     [imagePicker.navigationBar setShadowImage:[UIImage new]];
-    imagePicker.navigationBar.barTintColor = CC_BTN_ENABLE_COLOR;
+    imagePicker.navigationBar.barTintColor = CC_MAIN_COLOR;
     imagePicker.oKButtonTitleColorDisabled = [UIColor lightGrayColor];
-    imagePicker.oKButtonTitleColorNormal = CC_BTN_ENABLE_COLOR;
+    imagePicker.oKButtonTitleColorNormal = CC_MAIN_COLOR;
     imagePicker.navigationBar.translucent = NO;
     imagePicker.cancelBtnTitleStr = [NSString stringWithFormat:@"%@  ",Localized(@"Cancel")];
     [self presentViewController:imagePicker animated:YES completion:nil];

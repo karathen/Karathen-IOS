@@ -55,13 +55,14 @@
 #pragma mark - tabbar设置
 - (void)tabbarSet {
     [self.tabBar setBackgroundImage:[UIImageTool createImageWithColor:RGB(0xF6F7F8) andSize:CGSizeMake(1, 1)]];
+    self.tabBar.tintColor = CC_MAIN_COLOR;
     self.tabBar.backgroundColor = [UIColor clearColor];
     self.tabBar.translucent = NO;
     
     //设置未选中字体颜色
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:CC_GRAY_TEXTCOLOR, NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
     //设置选中字体颜色
-    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:CC_BTN_ENABLE_COLOR, NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:CC_MAIN_COLOR, NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
 }
 
 #pragma mark - get

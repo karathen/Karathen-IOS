@@ -11,3 +11,4 @@
 "NSPhotoLibraryAddUsageDescription" = "App needs your permission to visit your album";
 "NSPhotoLibraryUsageDescription" = "App needs your permission to visit your album";
 "NSBluetoothPeripheralUsageDescription" = " App needs your permission to use Bluetooth";
+"UILaunchStoryboardName" = "LaunchScreen";

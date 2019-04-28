@@ -259,7 +259,7 @@
 - (UIButton *)transferBtn {
     if (!_transferBtn) {
         _transferBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _transferBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _transferBtn.backgroundColor = CC_MAIN_COLOR;
         _transferBtn.layer.cornerRadius = FitScale(5);
         _transferBtn.layer.masksToBounds = YES;
         [_transferBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];

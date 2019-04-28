@@ -204,7 +204,7 @@
 - (UIButton *)claimBtn {
     if (!_claimBtn) {
         _claimBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _claimBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _claimBtn.backgroundColor = CC_MAIN_COLOR;
         _claimBtn.layer.cornerRadius = FitScale(5);
         _claimBtn.layer.masksToBounds = YES;
         [_claimBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];

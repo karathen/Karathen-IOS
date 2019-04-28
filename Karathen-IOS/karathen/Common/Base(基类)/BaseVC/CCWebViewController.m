@@ -145,7 +145,7 @@
 - (UIProgressView *)progressView {
     if (!_progressView) {
         _progressView = [[UIProgressView alloc] init];
-        _progressView.progressTintColor = CC_BTN_ENABLE_COLOR;
+        _progressView.progressTintColor = CC_MAIN_COLOR;
     }
     return _progressView;
 }

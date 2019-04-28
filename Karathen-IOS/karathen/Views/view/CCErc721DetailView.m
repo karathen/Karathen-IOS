@@ -127,7 +127,7 @@
         _contentView = [[UIView alloc] init];
         _contentView.backgroundColor = [UIColor whiteColor];
         
-        _contentView.layer.shadowColor = CC_BTN_ENABLE_COLOR.CGColor;
+        _contentView.layer.shadowColor = CC_MAIN_COLOR.CGColor;
         _contentView.layer.shadowOffset = CGSizeMake(0, FitScale(1.5));
         _contentView.layer.shadowOpacity = .3;
         _contentView.layer.cornerRadius = FitScale(5);

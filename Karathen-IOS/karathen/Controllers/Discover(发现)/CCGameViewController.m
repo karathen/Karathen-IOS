@@ -98,7 +98,7 @@
 #pragma mark -
 - (void)dragBackView {
     UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-    [backBtn setTintColor:CC_BTN_ENABLE_COLOR];
+    [backBtn setTintColor:CC_MAIN_COLOR];
     [backBtn setImage:[UIImage imageNamed:@"cc_nav_back"] forState:UIControlStateNormal];
     [backBtn setBackgroundColor:CC_GRAY_BACKCOLOR];
     backBtn.userInteractionEnabled = NO;

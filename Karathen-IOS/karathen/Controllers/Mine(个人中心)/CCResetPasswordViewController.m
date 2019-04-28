@@ -59,7 +59,7 @@
     BOOL judge = [self judgeComplete];
     if (judge) {
         self.confirmBtn.userInteractionEnabled = YES;
-        self.confirmBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        self.confirmBtn.backgroundColor = CC_MAIN_COLOR;
     } else {
         self.confirmBtn.userInteractionEnabled = NO;
         self.confirmBtn.backgroundColor = CC_BTN_DISABLE_COLOR;
@@ -263,7 +263,7 @@
 - (UIButton *)confirmBtn {
     if (!_confirmBtn) {
         _confirmBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _confirmBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _confirmBtn.backgroundColor = CC_MAIN_COLOR;
         _confirmBtn.layer.cornerRadius = FitScale(5);
         _confirmBtn.layer.masksToBounds = YES;
         [_confirmBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];

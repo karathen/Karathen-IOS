@@ -192,9 +192,9 @@
 - (UISlider *)slider {
     if (!_slider) {
         _slider = [[UISlider alloc] init];
-        _slider.thumbTintColor = CC_BTN_ENABLE_COLOR;
+        _slider.thumbTintColor = CC_MAIN_COLOR;
         _slider.maximumTrackTintColor = CC_BTN_DISABLE_COLOR;
-        _slider.minimumTrackTintColor = CC_BTN_ENABLE_COLOR;
+        _slider.minimumTrackTintColor = CC_MAIN_COLOR;
         _slider.userInteractionEnabled = YES;
         [_slider addTarget:self action:@selector(valueChange:) forControlEvents:UIControlEventValueChanged];
     }

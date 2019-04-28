@@ -179,7 +179,7 @@
 - (UILabel *)titleLab {
     if (!_titleLab) {
         _titleLab = [[UILabel alloc] init];
-        _titleLab.textColor = CC_BTN_TITLE_COLOR;
+        _titleLab.textColor = CC_MAIN_COLOR;
         _titleLab.font = BoldFont(FitScale(18));
     }
     return _titleLab;
@@ -198,7 +198,7 @@
 - (UIButton *)sureBtn {
     if (!_sureBtn) {
         _sureBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _sureBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _sureBtn.backgroundColor = CC_MAIN_COLOR;
         _sureBtn.titleLabel.font = MediumFont(FitScale(16));
         [_sureBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     }
@@ -208,7 +208,7 @@
 - (UIButton *)cancelBtn {
     if (!_cancelBtn) {
         _cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _cancelBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _cancelBtn.backgroundColor = CC_MAIN_COLOR;
         _cancelBtn.titleLabel.font = MediumFont(FitScale(16));
         [_cancelBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     }

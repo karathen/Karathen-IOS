@@ -292,7 +292,7 @@
 - (UIButton *)verifyBtn {
     if (!_verifyBtn) {
         _verifyBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _verifyBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _verifyBtn.backgroundColor = CC_MAIN_COLOR;
         _verifyBtn.titleLabel.font = MediumFont(FitScale(14));
         [_verifyBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _verifyBtn.layer.cornerRadius = FitScale(5);
@@ -312,7 +312,7 @@
 - (UIButton *)skipBtn {
     if (!_skipBtn) {
         _skipBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _skipBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _skipBtn.backgroundColor = CC_MAIN_COLOR;
         [_skipBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _skipBtn.titleLabel.font = MediumFont(FitScale(13));
         _skipBtn.layer.cornerRadius = FitScale(3);

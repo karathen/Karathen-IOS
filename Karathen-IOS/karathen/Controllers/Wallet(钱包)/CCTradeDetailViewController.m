@@ -62,7 +62,7 @@
                    @{@"title":Localized(@"Address From"),@"content":self.tradeModel.addressFrom},
                    @{@"title":Localized(@"Address To"),@"content":self.tradeModel.addressTo},
   @{@"title":Localized(@"Remark"),@"content":self.tradeModel.remark.length?[self.tradeModel.remark stringByRemovingPercentEncoding]:Localized(@"None")},
-                   @{@"title":Localized(@"TxHash"),@"content":self.tradeModel.txId?:@"",@"image":@"cc_asset_trade_icon",@"color":CC_BTN_ENABLE_COLOR},
+                   @{@"title":Localized(@"TxHash"),@"content":self.tradeModel.txId?:@"",@"image":@"cc_asset_trade_icon",@"color":CC_MAIN_COLOR},
                    @{@"title":Localized(@"Transaction time"),@"content":self.tradeModel.blockTimeString},
                    ];
 }

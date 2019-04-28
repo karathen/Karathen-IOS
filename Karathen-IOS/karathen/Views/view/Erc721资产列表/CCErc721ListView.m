@@ -241,7 +241,7 @@ UICollectionViewDelegateFlowLayout
     }];
     
     self.contentView.backgroundColor = [UIColor whiteColor];
-    self.contentView.layer.shadowColor = CC_BTN_ENABLE_COLOR.CGColor;
+    self.contentView.layer.shadowColor = CC_MAIN_COLOR.CGColor;
     self.contentView.layer.shadowOffset = CGSizeMake(0, FitScale(1.5));
     self.contentView.layer.shadowOpacity = .3;
     self.contentView.layer.cornerRadius = FitScale(5);

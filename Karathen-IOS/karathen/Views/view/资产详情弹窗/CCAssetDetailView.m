@@ -173,7 +173,7 @@
 - (UILabel *)descLab {
     if (!_descLab) {
         _descLab = [[UILabel alloc] init];
-        _descLab.textColor = CC_BTN_ENABLE_COLOR;
+        _descLab.textColor = CC_MAIN_COLOR;
         _descLab.font = MediumFont(FitScale(12));
         _descLab.numberOfLines = 0;
         _descLab.textAlignment = NSTextAlignmentCenter;

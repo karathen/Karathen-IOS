@@ -218,7 +218,7 @@
         case CCAlertViewTypeTextAlert:
         {
             self.bottomBtn.text = self.sureTitle;
-            self.bottomBtn.textColor = CC_BTN_TITLE_COLOR;
+            self.bottomBtn.textColor = CC_MAIN_COLOR;
         }
             break;
         case CCAlertViewTypeLoading:

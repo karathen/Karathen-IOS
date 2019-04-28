@@ -155,7 +155,7 @@
         _createBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_createBtn setTitle:Localized(@"Import") forState:UIControlStateNormal];
         [_createBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        _createBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _createBtn.backgroundColor = CC_MAIN_COLOR;
         _createBtn.titleLabel.font = MediumFont(FitScale(15));
         _createBtn.layer.cornerRadius = FitScale(5);
         _createBtn.layer.masksToBounds = YES;

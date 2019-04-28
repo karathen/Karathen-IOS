@@ -230,7 +230,7 @@
             self.contentLab.backgroundColor = CC_GRAY_BACKCOLOR;
         } else {
             self.contentLab.textColor = [UIColor whiteColor];
-            self.contentLab.backgroundColor = CC_BTN_TITLE_COLOR;
+            self.contentLab.backgroundColor = CC_MAIN_COLOR;
         }
     } else {
         self.contentLab.backgroundColor = [UIColor clearColor];

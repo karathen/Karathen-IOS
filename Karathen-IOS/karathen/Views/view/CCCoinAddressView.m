@@ -208,8 +208,8 @@ CCAddressManageViewDelegate
     NSString *iconString = [NSString stringWithFormat:@"cc_address_icon_%ld",iconId%25];
     [self.iconView setImage:[UIImage imageNamed:iconString]];
     if (walletData.isSelected) {
-        self.nameLab.textColor = self.typeLab.textColor = self.addressLab.textColor = CC_BTN_ENABLE_COLOR;
-        self.clipBtn.tintColor = self.moreBtn.tintColor = CC_BTN_ENABLE_COLOR;
+        self.nameLab.textColor = self.typeLab.textColor = self.addressLab.textColor = CC_MAIN_COLOR;
+        self.clipBtn.tintColor = self.moreBtn.tintColor = CC_MAIN_COLOR;
         self.selectImg.hidden = NO;
         self.borderView.layer.shadowOpacity = .8;
     } else {
@@ -302,7 +302,7 @@ CCAddressManageViewDelegate
     if (!_borderView) {
         _borderView = [[UIView alloc] init];
         _borderView.backgroundColor = [UIColor whiteColor];
-        _borderView.layer.shadowColor = CC_BTN_ENABLE_COLOR.CGColor;
+        _borderView.layer.shadowColor = CC_MAIN_COLOR.CGColor;
         _borderView.layer.shadowOffset = CGSizeMake(0, FitScale(1.5));
         _borderView.layer.shadowOpacity = .3;
         _borderView.layer.cornerRadius = FitScale(5);

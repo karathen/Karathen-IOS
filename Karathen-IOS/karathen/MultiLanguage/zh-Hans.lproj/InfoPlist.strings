@@ -11,3 +11,4 @@
 "NSPhotoLibraryAddUsageDescription" = "App需要您的同意，才能访问你的相册";
 "NSPhotoLibraryUsageDescription" = "App需要您的同意，才能访问你的相册";
 "NSBluetoothPeripheralUsageDescription" = "App需要您的同意，才能使用蓝牙";
+"UILaunchStoryboardName" = "LaunchScreen-Chinese";

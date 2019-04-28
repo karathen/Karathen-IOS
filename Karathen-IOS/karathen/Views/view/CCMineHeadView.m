@@ -45,7 +45,7 @@
         _backLab.edgeInsets = UIEdgeInsetsMake(0, FitScale(8), 0, FitScale(8));
         _backLab.textColor = [UIColor whiteColor];
         _backLab.font = MediumFont(FitScale(13));
-        _backLab.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _backLab.backgroundColor = CC_MAIN_COLOR;
         _backLab.layer.cornerRadius = FitScale(3);
         _backLab.layer.masksToBounds = YES;
     }

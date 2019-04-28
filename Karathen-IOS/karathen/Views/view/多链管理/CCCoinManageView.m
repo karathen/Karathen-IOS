@@ -206,7 +206,7 @@
 - (UIButton *)confirmBtn {
     if (!_confirmBtn) {
         _confirmBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _confirmBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _confirmBtn.backgroundColor = CC_MAIN_COLOR;
         _confirmBtn.layer.cornerRadius = FitScale(5);
         _confirmBtn.layer.masksToBounds = YES;
         [_confirmBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -338,7 +338,7 @@
 - (UISwitch *)switchBtn {
     if (!_switchBtn) {
         _switchBtn = [[UISwitch alloc] init];
-        _switchBtn.onTintColor = CC_BTN_ENABLE_COLOR;
+        _switchBtn.onTintColor = CC_MAIN_COLOR;
         _switchBtn.thumbTintColor = [UIColor whiteColor];
         _switchBtn.backgroundColor = [UIColor blackColor];
     }

@@ -36,7 +36,7 @@
     
     self.timeLab.text = model.blockTimeString;
     
-    self.statusLab.textColor = CC_BTN_ENABLE_COLOR;
+    self.statusLab.textColor = CC_MAIN_COLOR;
     if (walletData.type == CCCoinTypeETH) {
         if (model.txReceiptStatus == 0) {
             self.statusLab.text = @"0/12";

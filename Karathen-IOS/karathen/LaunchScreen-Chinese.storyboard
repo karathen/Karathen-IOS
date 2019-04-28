@@ -18,18 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_en" translatesAutoresizingMaskIntoConstraints="NO" id="2Av-Wh-6fA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_cn" translatesAutoresizingMaskIntoConstraints="NO" id="z3f-GZ-clY">
                                 <rect key="frame" x="0.0" y="355.5" width="414" height="185"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="2Av-Wh-6fA" secondAttribute="height" multiplier="1280:571" id="NAh-EQ-QEB"/>
+                                    <constraint firstAttribute="width" secondItem="z3f-GZ-clY" secondAttribute="height" multiplier="1280:571" id="x8Z-KL-fka"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2Av-Wh-6fA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="duf-Dl-sfq"/>
-                            <constraint firstItem="2Av-Wh-6fA" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="iDd-9b-48v"/>
-                            <constraint firstItem="2Av-Wh-6fA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yGX-RL-T7I"/>
+                            <constraint firstItem="z3f-GZ-clY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="enL-Ht-oiv"/>
+                            <constraint firstItem="z3f-GZ-clY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="maT-ZY-l2w"/>
+                            <constraint firstItem="z3f-GZ-clY" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="qVh-fZ-Efv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
@@ -40,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch_en" width="1280" height="571"/>
+        <image name="launch_cn" width="1280" height="571"/>
     </resources>
 </document>

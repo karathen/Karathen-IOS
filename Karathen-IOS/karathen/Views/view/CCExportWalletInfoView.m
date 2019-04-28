@@ -155,7 +155,7 @@
         [self.clipBtn setTitle:Localized(@"Copied") forState:UIControlStateNormal];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             self.clipBtn.userInteractionEnabled = YES;
-            self.clipBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+            self.clipBtn.backgroundColor = CC_MAIN_COLOR;
             [self.clipBtn setTitle:Localized(@"Copy") forState:UIControlStateNormal];
         });
     }];
@@ -195,7 +195,7 @@
 - (UILabel *)hintLab {
     if (!_hintLab) {
         _hintLab = [[UILabel alloc] init];
-        _hintLab.textColor = CC_BTN_TITLE_COLOR;
+        _hintLab.textColor = CC_MAIN_COLOR;
         _hintLab.font = MediumFont(FitScale(12));
         _hintLab.numberOfLines = 0;
     }
@@ -215,7 +215,7 @@
         [_clipBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _clipBtn.titleLabel.font = MediumFont(FitScale(13));
         _clipBtn.layer.cornerRadius = FitScale(5);
-        _clipBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _clipBtn.backgroundColor = CC_MAIN_COLOR;
     }
     return _clipBtn;
 }

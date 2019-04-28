@@ -299,7 +299,7 @@ CCWalletInfoHeadViewCellDelegate
 - (CCEdgeLabel *)offLineLab {
     if (!_offLineLab) {
         _offLineLab = [[CCEdgeLabel alloc] init];
-        _offLineLab.textColor = CC_BTN_ENABLE_COLOR;
+        _offLineLab.textColor = CC_MAIN_COLOR;
         _offLineLab.font = MediumFont(FitScale(13));
         _offLineLab.backgroundColor = RGB(0xf1f1f2);
         _offLineLab.layer.cornerRadius = 2;

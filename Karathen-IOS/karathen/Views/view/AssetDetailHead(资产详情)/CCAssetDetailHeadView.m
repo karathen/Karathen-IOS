@@ -120,7 +120,7 @@
 - (UIView *)backView {
     if (!_backView) {
         _backView = [[UIView alloc] init];
-        _backView.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _backView.backgroundColor = CC_MAIN_COLOR;
     }
     return _backView;
 }

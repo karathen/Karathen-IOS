@@ -150,7 +150,7 @@
 - (UIButton *)finishBtn {
     if (!_finishBtn) {
         _finishBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _finishBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _finishBtn.backgroundColor = CC_MAIN_COLOR;
         _finishBtn.titleLabel.font = MediumFont(FitScale(14));
         [_finishBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _finishBtn.layer.cornerRadius = FitScale(5);

@@ -122,7 +122,6 @@
 		95B5FEF62181AC1F0018E50A /* CCInputUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B5FEF52181AC1F0018E50A /* CCInputUrlViewController.m */; };
 		95B5FEFE2181D6DE0018E50A /* CCWalletOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B5FEFD2181D6DE0018E50A /* CCWalletOptionView.m */; };
 		95B5FF012181D7410018E50A /* CCContactServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B5FF002181D7410018E50A /* CCContactServiceViewController.m */; };
-		95B76752227559B300ECDF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B76751227559B300ECDF7C /* LaunchScreen.storyboard */; };
 		95B7675822755B0100ECDF7C /* iOS_EWalletDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B7675722755B0100ECDF7C /* iOS_EWalletDynamic.framework */; };
 		95B76770227574C100ECDF7C /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B7676F227574C100ECDF7C /* Bugly.framework */; };
 		95B7684A2275795600ECDF7C /* CCDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B767752275795500ECDF7C /* CCDataManager.m */; };
@@ -226,6 +225,8 @@
 		95B768E422757A7B00ECDF7C /* AppDelegate+RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B768CC22757A7B00ECDF7C /* AppDelegate+RootViewController.m */; };
 		95B768E522757A7B00ECDF7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B768CD22757A7B00ECDF7C /* AppDelegate.m */; };
 		95B768E722757B6200ECDF7C /* iOS_EWalletDynamic.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 95B7675722755B0100ECDF7C /* iOS_EWalletDynamic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		95B768ED22757D8300ECDF7C /* LaunchScreen-Chinese.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B768EB22757D8300ECDF7C /* LaunchScreen-Chinese.storyboard */; };
+		95B768EE22757D8300ECDF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B768EC22757D8300ECDF7C /* LaunchScreen.storyboard */; };
 		95C340D420FF095A0038A314 /* CCTextHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C340D320FF095A0038A314 /* CCTextHintView.m */; };
 		95C3779721AD171E00042D32 /* MLMSegmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C3778C21AD171E00042D32 /* MLMSegmentManager.m */; };
 		95C3779821AD171E00042D32 /* MLMSegmentHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C3778D21AD171E00042D32 /* MLMSegmentHead.m */; };
@@ -539,7 +540,6 @@
 		95B5FEFD2181D6DE0018E50A /* CCWalletOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCWalletOptionView.m; sourceTree = "<group>"; };
 		95B5FEFF2181D7410018E50A /* CCContactServiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCContactServiceViewController.h; sourceTree = "<group>"; };
 		95B5FF002181D7410018E50A /* CCContactServiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCContactServiceViewController.m; sourceTree = "<group>"; };
-		95B76751227559B300ECDF7C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95B7675722755B0100ECDF7C /* iOS_EWalletDynamic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOS_EWalletDynamic.framework; sourceTree = "<group>"; };
 		95B7676F227574C100ECDF7C /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		95B767752275795500ECDF7C /* CCDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDataManager.m; sourceTree = "<group>"; };
@@ -788,6 +788,8 @@
 		95B768CC22757A7B00ECDF7C /* AppDelegate+RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RootViewController.m"; sourceTree = "<group>"; };
 		95B768CD22757A7B00ECDF7C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		95B768CE22757A7B00ECDF7C /* AppDelegate+RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RootViewController.h"; sourceTree = "<group>"; };
+		95B768EB22757D8300ECDF7C /* LaunchScreen-Chinese.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "LaunchScreen-Chinese.storyboard"; sourceTree = "<group>"; };
+		95B768EC22757D8300ECDF7C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95C340D220FF095A0038A314 /* CCTextHintView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTextHintView.h; sourceTree = "<group>"; };
 		95C340D320FF095A0038A314 /* CCTextHintView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTextHintView.m; sourceTree = "<group>"; };
 		95C3778C21AD171E00042D32 /* MLMSegmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMSegmentManager.m; sourceTree = "<group>"; };
@@ -1858,8 +1860,9 @@
 				95DE8ED020F47A9D0080F1DF /* Resource */,
 				95DE8E7520F4771C0080F1DF /* Assets.xcassets */,
 				95DE8E7B20F4771C0080F1DF /* main.m */,
-				95B76751227559B300ECDF7C /* LaunchScreen.storyboard */,
 				95DE8E7A20F4771C0080F1DF /* Info.plist */,
+				95B768EB22757D8300ECDF7C /* LaunchScreen-Chinese.storyboard */,
+				95B768EC22757D8300ECDF7C /* LaunchScreen.storyboard */,
 			);
 			path = karathen;
 			sourceTree = "<group>";
@@ -2278,12 +2281,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B768EE22757D8300ECDF7C /* LaunchScreen.storyboard in Resources */,
 				95DE8EFC20F47D4F0080F1DF /* Language.strings in Resources */,
 				95B7685F2275795600ECDF7C /* secp256k1.table in Resources */,
-				95B76752227559B300ECDF7C /* LaunchScreen.storyboard in Resources */,
 				95DE8EF620F47B830080F1DF /* Localized.strings in Resources */,
 				952AC62A215CE7AF00014FFF /* main.js in Resources */,
 				95DE8E7620F4771C0080F1DF /* Assets.xcassets in Resources */,
+				95B768ED22757D8300ECDF7C /* LaunchScreen-Chinese.storyboard in Resources */,
 				9509B9AF2142B90000852BA0 /* InfoPlist.strings in Resources */,
 				95B1E3792182A84B00ACF8CB /* MLMChooseImgCell.xib in Resources */,
 			);

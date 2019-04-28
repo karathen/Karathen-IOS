@@ -98,7 +98,7 @@
 - (UIButton *)allBtn {
     if (!_allBtn) {
         _allBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_allBtn setTitleColor:CC_BTN_ENABLE_COLOR forState:UIControlStateSelected];
+        [_allBtn setTitleColor:CC_MAIN_COLOR forState:UIControlStateSelected];
         [_allBtn setTitleColor:CC_BLACK_COLOR forState:UIControlStateNormal];
         _allBtn.titleLabel.font = MediumFont(FitScale(13));
     }
@@ -108,7 +108,7 @@
 - (UIButton *)localBtn {
     if (!_localBtn) {
         _localBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_localBtn setTitleColor:CC_BTN_ENABLE_COLOR forState:UIControlStateSelected];
+        [_localBtn setTitleColor:CC_MAIN_COLOR forState:UIControlStateSelected];
         [_localBtn setTitleColor:CC_BLACK_COLOR forState:UIControlStateNormal];
         _localBtn.titleLabel.font = MediumFont(FitScale(13));
     }

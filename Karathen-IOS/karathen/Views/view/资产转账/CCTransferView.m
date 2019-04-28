@@ -96,7 +96,7 @@
     BOOL judge = [self judgeComplete];
     if (judge) {
         self.transferBtn.userInteractionEnabled = YES;
-        self.transferBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        self.transferBtn.backgroundColor = CC_MAIN_COLOR;
     } else {
         self.transferBtn.userInteractionEnabled = NO;
         self.transferBtn.backgroundColor = CC_BTN_DISABLE_COLOR;
@@ -335,7 +335,7 @@
 - (UIButton *)transferBtn {
     if (!_transferBtn) {
         _transferBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _transferBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _transferBtn.backgroundColor = CC_MAIN_COLOR;
         _transferBtn.layer.cornerRadius = FitScale(5);
         _transferBtn.layer.masksToBounds = YES;
         [_transferBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];

@@ -329,7 +329,7 @@
     BOOL judge = [self judgeComplete];
     if (judge) {
         self.importBtn.userInteractionEnabled = YES;
-        self.importBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        self.importBtn.backgroundColor = CC_MAIN_COLOR;
     } else {
         self.importBtn.userInteractionEnabled = NO;
         self.importBtn.backgroundColor = CC_BTN_DISABLE_COLOR;
@@ -465,7 +465,7 @@
             [titles addObject:model.title];
         }
         _segmentHead = [[MLMSegmentHead alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, FitScale(45)) titles:titles headStyle:SegmentHeadStyleDefault layoutStyle:MLMSegmentLayoutDefault];
-        _segmentHead.selectColor = CC_BTN_ENABLE_COLOR;
+        _segmentHead.selectColor = CC_MAIN_COLOR;
         _segmentHead.deSelectColor = CC_BLACK_COLOR;
         _segmentHead.fontSize = FitScale(15);
         _segmentHead.bottomLineHeight = 0;
@@ -558,7 +558,7 @@
     if (!_createBtn) {
         _createBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         _createBtn.backgroundColor = [UIColor clearColor];
-        [_createBtn setTitleColor:CC_BTN_TITLE_COLOR forState:UIControlStateNormal];
+        [_createBtn setTitleColor:CC_MAIN_COLOR forState:UIControlStateNormal];
         _createBtn.titleLabel.font = MediumFont(FitScale(14));
         [_createBtn setTitle:Localized(@"Create Wallet") forState:UIControlStateNormal];
     }
@@ -568,7 +568,7 @@
 - (UIButton *)importBtn {
     if (!_importBtn) {
         _importBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _importBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _importBtn.backgroundColor = CC_MAIN_COLOR;
         _importBtn.layer.cornerRadius = FitScale(5);
         _importBtn.layer.masksToBounds = YES;
         [_importBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];

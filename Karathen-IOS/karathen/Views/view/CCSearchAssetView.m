@@ -153,7 +153,7 @@
     if (hadAddAsset) {
         self.selectedBtn.layer.borderColor = [UIColor clearColor].CGColor;
     } else {
-        self.selectedBtn.layer.borderColor = CC_BTN_ENABLE_COLOR.CGColor;
+        self.selectedBtn.layer.borderColor = CC_MAIN_COLOR.CGColor;
     }
     if (hadAddAsset) {
         self.nameLab.text = hadAddAsset.tokenSynbol;
@@ -261,7 +261,7 @@
         _selectedBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_selectedBtn setTitle:Localized(@"Add") forState:UIControlStateNormal];
         [_selectedBtn setTitle:Localized(@"Added") forState:UIControlStateSelected];
-        [_selectedBtn setTitleColor:CC_BTN_ENABLE_COLOR forState:UIControlStateNormal];
+        [_selectedBtn setTitleColor:CC_MAIN_COLOR forState:UIControlStateNormal];
         [_selectedBtn setTitleColor:CC_GRAY_TEXTCOLOR forState:UIControlStateSelected];
         _selectedBtn.titleLabel.font = MediumFont(FitScale(12));
         _selectedBtn.layer.cornerRadius = FitScale(4);

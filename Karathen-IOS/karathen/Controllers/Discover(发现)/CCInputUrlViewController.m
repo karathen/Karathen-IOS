@@ -117,7 +117,7 @@
         _cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_cancelBtn setTitle:Localized(@"Cancel") forState:UIControlStateNormal];
         _cancelBtn.titleLabel.font = MediumFont(FitScale(14));
-        [_cancelBtn setTitleColor:CC_BTN_TITLE_COLOR forState:UIControlStateNormal];
+        [_cancelBtn setTitleColor:CC_MAIN_COLOR forState:UIControlStateNormal];
     }
     return _cancelBtn;
 }

@@ -23,7 +23,7 @@
 
 #pragma mark - initNAv
 - (void)initNav {
-    [self setBackImage:[UIImageTool createImageWithColor:CC_BTN_ENABLE_COLOR andSize:CGSizeMake(1, 1)]];
+    [self setBackImage:[UIImageTool createImageWithColor:CC_MAIN_COLOR andSize:CGSizeMake(1, 1)]];
     [self setTitleColor:[UIColor whiteColor] font:BoldFont(FitScale(15))];
 }
 

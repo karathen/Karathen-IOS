@@ -203,7 +203,7 @@ CCAccountManageViewDelegate
 - (UIButton *)addBtn {
     if (!_addBtn) {
         _addBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _addBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _addBtn.backgroundColor = CC_MAIN_COLOR;
         _addBtn.layer.cornerRadius = FitScale(5);
         _addBtn.layer.masksToBounds = YES;
         [_addBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -260,8 +260,8 @@ CCAccountManageViewDelegate
     self.nameLab.text = account.account.accountName;
     
     if (account.account.isSelected) {
-        self.nameLab.textColor = CC_BTN_ENABLE_COLOR;
-        self.iconView.tintColor = self.moreBtn.tintColor = CC_BTN_ENABLE_COLOR;
+        self.nameLab.textColor = CC_MAIN_COLOR;
+        self.iconView.tintColor = self.moreBtn.tintColor = CC_MAIN_COLOR;
         self.selectImg.hidden = NO;
         self.borderView.layer.shadowOpacity = .8;
     } else {
@@ -326,7 +326,7 @@ CCAccountManageViewDelegate
     if (!_borderView) {
         _borderView = [[UIView alloc] init];
         _borderView.backgroundColor = [UIColor whiteColor];
-        _borderView.layer.shadowColor = CC_BTN_ENABLE_COLOR.CGColor;
+        _borderView.layer.shadowColor = CC_MAIN_COLOR.CGColor;
         _borderView.layer.shadowOffset = CGSizeMake(0, FitScale(1.5));
         _borderView.layer.shadowOpacity = .3;
         _borderView.layer.cornerRadius = FitScale(5);
@@ -406,7 +406,7 @@ CCAccountManageViewDelegate
 - (UIButton *)addBtn {
     if (!_addBtn) {
         _addBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _addBtn.backgroundColor = CC_BTN_ENABLE_COLOR;
+        _addBtn.backgroundColor = CC_MAIN_COLOR;
         _addBtn.layer.cornerRadius = FitScale(5);
         _addBtn.layer.masksToBounds = YES;
         [_addBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
