@@ -11,7 +11,6 @@
 		5840C46220104DE1005331FA /* Erc20Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 5840C46020104DE1005331FA /* Erc20Token.m */; };
 		5877596820132C4600F4B9F2 /* MTCProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5877596620132C4600F4B9F2 /* MTCProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5877596920132C4600F4B9F2 /* MTCProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5877596720132C4600F4B9F2 /* MTCProvider.m */; };
-		E2317E6D1E3191AC00DBE3E4 /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2317E631E3191AC00DBE3E4 /* ethers.framework */; };
 		E2317E741E3191AC00DBE3E4 /* ethers.h in Headers */ = {isa = PBXBuildFile; fileRef = E2317E661E3191AC00DBE3E4 /* ethers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2317E931E31970900DBE3E4 /* Payment.h in Headers */ = {isa = PBXBuildFile; fileRef = E2317E7D1E31970900DBE3E4 /* Payment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2317E941E31970900DBE3E4 /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = E2317E7E1E31970900DBE3E4 /* Payment.m */; };
@@ -99,35 +98,13 @@
 		E2317F521E3199BD00DBE3E4 /* scrypt_sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = E2317F4B1E3199BD00DBE3E4 /* scrypt_sha256.c */; };
 		E2317F531E3199BD00DBE3E4 /* sysendian.h in Headers */ = {isa = PBXBuildFile; fileRef = E2317F4C1E3199BD00DBE3E4 /* sysendian.h */; };
 		E2317F541E3199BD00DBE3E4 /* scrypt_sha256.h in Headers */ = {isa = PBXBuildFile; fileRef = E2317F4D1E3199BD00DBE3E4 /* scrypt_sha256.h */; };
-		E2317F5C1E31A07700DBE3E4 /* test-providers.m in Sources */ = {isa = PBXBuildFile; fileRef = E2317F551E31A07700DBE3E4 /* test-providers.m */; };
-		E2317F5D1E31A07700DBE3E4 /* test-accounts.m in Sources */ = {isa = PBXBuildFile; fileRef = E2317F561E31A07700DBE3E4 /* test-accounts.m */; };
-		E2317F5E1E31A07700DBE3E4 /* test-rlpcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2317F571E31A07700DBE3E4 /* test-rlpcoder.m */; };
-		E2317F5F1E31A07700DBE3E4 /* test-ether-format.m in Sources */ = {isa = PBXBuildFile; fileRef = E2317F581E31A07700DBE3E4 /* test-ether-format.m */; };
-		E2317F601E31A07700DBE3E4 /* test-mnemonic-wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2317F591E31A07700DBE3E4 /* test-mnemonic-wallet.m */; };
-		E2317F611E31A07700DBE3E4 /* test-thirdparty.m in Sources */ = {isa = PBXBuildFile; fileRef = E2317F5A1E31A07700DBE3E4 /* test-thirdparty.m */; };
-		E2317F621E31A07700DBE3E4 /* test-transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2317F5B1E31A07700DBE3E4 /* test-transactions.m */; };
-		E2317F681E31A09F00DBE3E4 /* tests-transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = E2317F641E31A09F00DBE3E4 /* tests-transactions.json */; };
-		E2317F691E31A09F00DBE3E4 /* tests-accounts.json in Resources */ = {isa = PBXBuildFile; fileRef = E2317F651E31A09F00DBE3E4 /* tests-accounts.json */; };
-		E2317F6A1E31A09F00DBE3E4 /* tests-rlpcoder.json in Resources */ = {isa = PBXBuildFile; fileRef = E2317F661E31A09F00DBE3E4 /* tests-rlpcoder.json */; };
-		E2317F6B1E31A09F00DBE3E4 /* tests-trezor-bip39.json in Resources */ = {isa = PBXBuildFile; fileRef = E2317F671E31A09F00DBE3E4 /* tests-trezor-bip39.json */; };
 		E2FA03D21E406FB30013E5A7 /* Signature.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FA03D01E406FB30013E5A7 /* Signature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2FA03D31E406FB30013E5A7 /* Signature.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA03D11E406FB30013E5A7 /* Signature.m */; };
-		E2FA03D71E4096560013E5A7 /* test-entropy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA03D61E4096560013E5A7 /* test-entropy.m */; };
 		E2FA04821E42A0300013E5A7 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FA04801E42A0300013E5A7 /* Utilities.h */; };
 		E2FA04831E42A0300013E5A7 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04811E42A0300013E5A7 /* Utilities.m */; };
 		E2FA04861E42A5660013E5A7 /* SecureData.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FA04841E42A5660013E5A7 /* SecureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2FA04871E42A5660013E5A7 /* SecureData.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04851E42A5660013E5A7 /* SecureData.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E2317E6E1E3191AC00DBE3E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2317E5A1E3191AC00DBE3E4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2317E621E3191AC00DBE3E4;
-			remoteInfo = ethers;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5840C45F20104DE1005331FA /* Erc20Token.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Erc20Token.h; path = src/Erc20Token.h; sourceTree = "<group>"; };
@@ -137,8 +114,6 @@
 		E2317E631E3191AC00DBE3E4 /* ethers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ethers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2317E661E3191AC00DBE3E4 /* ethers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ethers.h; sourceTree = "<group>"; };
 		E2317E671E3191AC00DBE3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2317E6C1E3191AC00DBE3E4 /* ethersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ethersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2317E731E3191AC00DBE3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2317E7D1E31970900DBE3E4 /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Payment.h; path = src/Payment.h; sourceTree = "<group>"; };
 		E2317E7E1E31970900DBE3E4 /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Payment.m; path = src/Payment.m; sourceTree = "<group>"; };
 		E2317E831E31970900DBE3E4 /* TransactionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransactionInfo.h; path = src/TransactionInfo.h; sourceTree = "<group>"; };
@@ -227,20 +202,8 @@
 		E2317F4B1E3199BD00DBE3E4 /* scrypt_sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scrypt_sha256.c; path = "ThirdParty/scrypt-1.1.6/scrypt_sha256.c"; sourceTree = "<group>"; };
 		E2317F4C1E3199BD00DBE3E4 /* sysendian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sysendian.h; path = "ThirdParty/scrypt-1.1.6/sysendian.h"; sourceTree = "<group>"; };
 		E2317F4D1E3199BD00DBE3E4 /* scrypt_sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scrypt_sha256.h; path = "ThirdParty/scrypt-1.1.6/scrypt_sha256.h"; sourceTree = "<group>"; };
-		E2317F551E31A07700DBE3E4 /* test-providers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-providers.m"; sourceTree = "<group>"; };
-		E2317F561E31A07700DBE3E4 /* test-accounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-accounts.m"; sourceTree = "<group>"; };
-		E2317F571E31A07700DBE3E4 /* test-rlpcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-rlpcoder.m"; sourceTree = "<group>"; };
-		E2317F581E31A07700DBE3E4 /* test-ether-format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-ether-format.m"; sourceTree = "<group>"; };
-		E2317F591E31A07700DBE3E4 /* test-mnemonic-wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-mnemonic-wallet.m"; sourceTree = "<group>"; };
-		E2317F5A1E31A07700DBE3E4 /* test-thirdparty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-thirdparty.m"; sourceTree = "<group>"; };
-		E2317F5B1E31A07700DBE3E4 /* test-transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-transactions.m"; sourceTree = "<group>"; };
-		E2317F641E31A09F00DBE3E4 /* tests-transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "tests-transactions.json"; path = "test-cases/tests-transactions.json"; sourceTree = "<group>"; };
-		E2317F651E31A09F00DBE3E4 /* tests-accounts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "tests-accounts.json"; path = "test-cases/tests-accounts.json"; sourceTree = "<group>"; };
-		E2317F661E31A09F00DBE3E4 /* tests-rlpcoder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "tests-rlpcoder.json"; path = "test-cases/tests-rlpcoder.json"; sourceTree = "<group>"; };
-		E2317F671E31A09F00DBE3E4 /* tests-trezor-bip39.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "tests-trezor-bip39.json"; path = "test-cases/tests-trezor-bip39.json"; sourceTree = "<group>"; };
 		E2FA03D01E406FB30013E5A7 /* Signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Signature.h; path = src/Signature.h; sourceTree = "<group>"; };
 		E2FA03D11E406FB30013E5A7 /* Signature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Signature.m; path = src/Signature.m; sourceTree = "<group>"; };
-		E2FA03D61E4096560013E5A7 /* test-entropy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-entropy.m"; sourceTree = "<group>"; };
 		E2FA04801E42A0300013E5A7 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = src/Utilities/Utilities.h; sourceTree = "<group>"; };
 		E2FA04811E42A0300013E5A7 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = src/Utilities/Utilities.m; sourceTree = "<group>"; };
 		E2FA04841E42A5660013E5A7 /* SecureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecureData.h; path = src/Utilities/SecureData.h; sourceTree = "<group>"; };
@@ -255,14 +218,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2317E691E3191AC00DBE3E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2317E6D1E3191AC00DBE3E4 /* ethers.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -270,7 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				E2317E651E3191AC00DBE3E4 /* ethers */,
-				E2317E701E3191AC00DBE3E4 /* ethersTests */,
 				E2317E641E3191AC00DBE3E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -279,7 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				E2317E631E3191AC00DBE3E4 /* ethers.framework */,
-				E2317E6C1E3191AC00DBE3E4 /* ethersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,23 +246,6 @@
 				E2317E671E3191AC00DBE3E4 /* Info.plist */,
 			);
 			path = ethers;
-			sourceTree = "<group>";
-		};
-		E2317E701E3191AC00DBE3E4 /* ethersTests */ = {
-			isa = PBXGroup;
-			children = (
-				E2317F631E31A08800DBE3E4 /* test-cases */,
-				E2317E731E3191AC00DBE3E4 /* Info.plist */,
-				E2317F561E31A07700DBE3E4 /* test-accounts.m */,
-				E2FA03D61E4096560013E5A7 /* test-entropy.m */,
-				E2317F581E31A07700DBE3E4 /* test-ether-format.m */,
-				E2317F591E31A07700DBE3E4 /* test-mnemonic-wallet.m */,
-				E2317F551E31A07700DBE3E4 /* test-providers.m */,
-				E2317F571E31A07700DBE3E4 /* test-rlpcoder.m */,
-				E2317F5A1E31A07700DBE3E4 /* test-thirdparty.m */,
-				E2317F5B1E31A07700DBE3E4 /* test-transactions.m */,
-			);
-			path = ethersTests;
 			sourceTree = "<group>";
 		};
 		E2317EA91E31974F00DBE3E4 /* Utilities */ = {
@@ -453,17 +389,6 @@
 			name = "trezor-crypto";
 			sourceTree = "<group>";
 		};
-		E2317F631E31A08800DBE3E4 /* test-cases */ = {
-			isa = PBXGroup;
-			children = (
-				E2317F641E31A09F00DBE3E4 /* tests-transactions.json */,
-				E2317F651E31A09F00DBE3E4 /* tests-accounts.json */,
-				E2317F661E31A09F00DBE3E4 /* tests-rlpcoder.json */,
-				E2317F671E31A09F00DBE3E4 /* tests-trezor-bip39.json */,
-			);
-			name = "test-cases";
-			sourceTree = "<group>";
-		};
 		E2D1A2B01E3C695A0015CAF8 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,24 +500,6 @@
 			productReference = E2317E631E3191AC00DBE3E4 /* ethers.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E2317E6B1E3191AC00DBE3E4 /* ethersTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2317E7A1E3191AC00DBE3E4 /* Build configuration list for PBXNativeTarget "ethersTests" */;
-			buildPhases = (
-				E2317E681E3191AC00DBE3E4 /* Sources */,
-				E2317E691E3191AC00DBE3E4 /* Frameworks */,
-				E2317E6A1E3191AC00DBE3E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E2317E6F1E3191AC00DBE3E4 /* PBXTargetDependency */,
-			);
-			name = ethersTests;
-			productName = ethersTests;
-			productReference = E2317E6C1E3191AC00DBE3E4 /* ethersTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -607,11 +514,6 @@
 						DevelopmentTeam = 5MEUQ98276;
 						ProvisioningStyle = Automatic;
 					};
-					E2317E6B1E3191AC00DBE3E4 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 7GS2C8FTGM;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = E2317E5D1E3191AC00DBE3E4 /* Build configuration list for PBXProject "ethers" */;
@@ -619,6 +521,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = E2317E591E3191AC00DBE3E4;
@@ -627,7 +530,6 @@
 			projectRoot = "";
 			targets = (
 				E2317E621E3191AC00DBE3E4 /* ethers */,
-				E2317E6B1E3191AC00DBE3E4 /* ethersTests */,
 			);
 		};
 /* End PBXProject section */
@@ -637,17 +539,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2317E6A1E3191AC00DBE3E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2317F6A1E31A09F00DBE3E4 /* tests-rlpcoder.json in Resources */,
-				E2317F6B1E31A09F00DBE3E4 /* tests-trezor-bip39.json in Resources */,
-				E2317F681E31A09F00DBE3E4 /* tests-transactions.json in Resources */,
-				E2317F691E31A09F00DBE3E4 /* tests-accounts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,30 +596,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2317E681E3191AC00DBE3E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2317F601E31A07700DBE3E4 /* test-mnemonic-wallet.m in Sources */,
-				E2317F5C1E31A07700DBE3E4 /* test-providers.m in Sources */,
-				E2317F5E1E31A07700DBE3E4 /* test-rlpcoder.m in Sources */,
-				E2317F621E31A07700DBE3E4 /* test-transactions.m in Sources */,
-				E2317F5D1E31A07700DBE3E4 /* test-accounts.m in Sources */,
-				E2317F5F1E31A07700DBE3E4 /* test-ether-format.m in Sources */,
-				E2317F611E31A07700DBE3E4 /* test-thirdparty.m in Sources */,
-				E2FA03D71E4096560013E5A7 /* test-entropy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E2317E6F1E3191AC00DBE3E4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E2317E621E3191AC00DBE3E4 /* ethers */;
-			targetProxy = E2317E6E1E3191AC00DBE3E4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E2317E751E3191AC00DBE3E4 /* Debug */ = {
@@ -891,28 +759,6 @@
 			};
 			name = Release;
 		};
-		E2317E7B1E3191AC00DBE3E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 7GS2C8FTGM;
-				INFOPLIST_FILE = ethersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.ethers.ethersTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		E2317E7C1E3191AC00DBE3E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 7GS2C8FTGM;
-				INFOPLIST_FILE = ethersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.ethers.ethersTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -930,15 +776,6 @@
 			buildConfigurations = (
 				E2317E781E3191AC00DBE3E4 /* Debug */,
 				E2317E791E3191AC00DBE3E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E2317E7A1E3191AC00DBE3E4 /* Build configuration list for PBXNativeTarget "ethersTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2317E7B1E3191AC00DBE3E4 /* Debug */,
-				E2317E7C1E3191AC00DBE3E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
